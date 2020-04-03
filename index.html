@@ -7,7 +7,11 @@
 <body>
 
 <div id="app">
-  
+  <infinite-scroll @infinite-scroll="loadMore">
+    <div class="content" v-for="n in num" :key="n">
+      <p class="text">当前列{{n}}</p>
+    </div>
+  </infinite-scroll>
 </div>
 
 <script src="./src/app.js"></script>
