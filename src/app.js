@@ -13,8 +13,10 @@ new Vue({
     },
     methods:{
         loadMore(){
-            this.num = this.num + 20
-            console.log('加载次数='+(this.num/20))
+            setTimeout(()=>{
+                this.num = this.num + 20
+                console.log('加载次数='+(this.num/20))
+            },2000)
         },
     }
 })
