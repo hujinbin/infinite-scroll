@@ -1,5 +1,5 @@
 {
-  "name": "infinite-scroll",
+  "name": "infinite-scroll-vue",
   "version": "0.0.1",
   "description": "vue滚动加载组件",
   "main": "./dist/index.js",
